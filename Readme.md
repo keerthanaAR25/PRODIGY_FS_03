@@ -83,15 +83,25 @@ ecommerce-store/
 ------
 
 cd backend
+-----
 npm install express mongoose bcryptjs jsonwebtoken cors helmet morgan express-rate-limit express-async-handler express-validator multer colors dotenv
+------
 npm install -D nodemon
+------
 npm run seed
+-----
 npm run dev
+------
 cd frontend
+-------
 npm install react@18 react-dom@18 react-router-dom@6 axios framer-motion@10 react-hot-toast react-icons recharts react-scripts@5
+------
 npm install -D tailwindcss@3 postcss autoprefixer
+-------
 npm install react-scripts@5.0.1 --save --legacy-peer-deps
+------
 npm install ajv@^8.0.0 --save --legacy-peer-deps
+------
 npm start
 -----
 
